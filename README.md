@@ -22,3 +22,16 @@ To use RC4 Plugin the steps are similar. THe format for RC4 is \\\\DECR[base64]:
 ![alt text](https://raw.githubusercontent.com/securitymagic/rpgmakermz/main/images/rc4-use.png "RC4 Usage Example")
 
 A game that is currently using these plugins can be found at: [CTF-2024 RPG](https://lukeacha.itch.io/capture-the-flag-2024)
+
+Book Cipher Decode:
+
+This plugin allows to to have a simple flat text file placed in your data folder which can be read as a book cipher. 
+For example: cipher1.txt in the Data folder might read "This is great!"
+-Default Control Variable for specifying the Book Cipher to use is 44, so you can change which book to use at any point in the game
+
+Load the cipher in-ggame by setting control variable 44 to "cipher1" or whatever you named your text file (do not include .txt in the variable text)
+(I suggest creating a "LOADING" scene where you set the variable ahead of time and then just set a text message \\BOOKDECR[0] )
+Now, in the text message box in-game use \\BOOKDECR[0, 1, 2, 3] this should output "This"
+
+-Additional feature: Control Variable 45 (default) is set for ROT cipher, default ROT is 0 (no change to text). However you can set rotation to further complicate the book cipher. If Varibale 45 is set to "1" your output from the example would eb Uijt.
+
