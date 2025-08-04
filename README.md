@@ -57,4 +57,13 @@ This robust plugin offers a few ways to make cyber security challenges within RP
   - Now "Run Debugger Program" runs the patched code, notice ECX is used here, this is to generate a 1 or 0 "True or False". Use this in a coditional branch for the puzzle.
 
 ![alt text](https://raw.githubusercontent.com/securitymagic/rpgmakermz/main/images/patch.png "Patch Register Event")
-  
+
+
+  ## DebuggerUIPatcher
+
+  Works with the VirtualDebugger, this plugin shows a window of the instructions set by the developer where the player can set NOP (No Operations) in the debugger to modify/patch the program to get the proper result. The patched program is store in a variable 
+  and then used by VirtualDebugger function (Run Debugger From Variable). The Output results, stored in a separate variable can be used for various puzzles, the output could be right or wrong value depending on the player, this value then can be used in an input.
+
+  ![alt text](https://raw.githubusercontent.com/securitymagic/rpgmakermz/main/images/debug1.png "Player View of Debugger")
+  ![alt text](https://raw.githubusercontent.com/securitymagic/rpgmakermz/main/images/debug2.png "Debugger Setup")
+  ![alt text](https://raw.githubusercontent.com/securitymagic/rpgmakermz/main/images/debug3.png "Debugger Event")
