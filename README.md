@@ -35,3 +35,12 @@ Now, in the text message box in-game use \\\\BOOKDECR[0, 1, 2, 3] this should ou
 
 -Additional feature: Control Variable 45 (default) is set for ROT cipher, default ROT is 0 (no change to text). However you can set rotation to further complicate the book cipher. If Varibale 45 is set to "1" your output from the example would eb Uijt.
 
+OpcodeSimulator:
+ -Create puzzles around understanding Opcode.
+ 
+
+Virtual Debugger Plugin:
+
+This robust plugin offers a few ways to make cyber security challenges within RPGMaker MZ.
+  -
+  
