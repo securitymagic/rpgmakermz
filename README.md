@@ -1,4 +1,4 @@
-Plugins created specifically for RPGMaker MZ:
+Plugins created specifically for RPGMaker MZ: [Example Video:](https://youtu.be/uT13-NyckQg)
 
 Place Plugin JS file in your RPGMaker MZ game project folder, under subfolders \js\plugins
 
