@@ -36,7 +36,11 @@ Now, in the text message box in-game use \\\\BOOKDECR[0, 1, 2, 3] this should ou
 -Additional feature: Control Variable 45 (default) is set for ROT cipher, default ROT is 0 (no change to text). However you can set rotation to further complicate the book cipher. If Varibale 45 is set to "1" your output from the example would eb Uijt.
 
 OpcodeSimulator:
- -Create puzzles around understanding Opcode.
+ -Create puzzles around understanding Opcode. In this example, the user must understand opcode operation to match the input value to the expected output value. 
+ -There are 2 parts to this plugin. The first "Disassemble Program" stores the program in a variable that can then be displayed in Text event to the user. The second "Run Opcode Program" runs the opcode and stores the result in a variable.
+
+ ![alt text](https://raw.githubusercontent.com/securitymagic/rpgmakermz/main/images/opcode1.png "Opcode setup")
+ ![alt text](https://raw.githubusercontent.com/securitymagic/rpgmakermz/main/images/opcode2.png "Opcode Event")
  
 
 Virtual Debugger Plugin:
