@@ -16,6 +16,7 @@
  * @text Output Variable ID
  * @desc Game variable to store the final patched program (string)
  * @type variable
+ * @Usage Works with VirtualDebugger Plugin
  */
 
 (() => {
@@ -151,4 +152,5 @@ class Window_InstructionList extends Window_Selectable {
 
 
   window.Scene_DebuggerUI = Scene_DebuggerUI;
+
 })();
