@@ -2,6 +2,8 @@ Plugins created specifically for RPGMaker MZ:
 
 Place Plugin JS file in your RPGMaker MZ game project folder, under subfolders \js\plugins
 
+##Vigenère Plugin
+
 For Vigenère cipher Usage encode your Clear-text message using Vigenère then output to Base64.
   I suggest using CyberChef: https://gchq.github.io/CyberChef/
 
@@ -15,6 +17,8 @@ Now create a text event in game with your encoded text. Use this format: \\\\VDE
 
 ![alt text](https://raw.githubusercontent.com/securitymagic/rpgmakermz/main/images/vigenere-use.png "Vigenere Usage Example")
 
+##RC4 Plugin
+
 To use RC4 Plugin the steps are similar. THe format for RC4 is \\\\DECR[base64]:
 
 ![alt text](https://raw.githubusercontent.com/securitymagic/rpgmakermz/main/images/rc4-recipe.png "RC4 CyberChef Recipe")
@@ -23,7 +27,7 @@ To use RC4 Plugin the steps are similar. THe format for RC4 is \\\\DECR[base64]:
 
 A game that is currently using these plugins can be found at: [CTF-2024 RPG](https://lukeacha.itch.io/capture-the-flag-2024)
 
-Book Cipher Decode:
+##Book Cipher Decode:
 
 This plugin allows to to have a simple flat text file placed in your data folder which can be read as a book cipher. 
 For example: cipher1.txt in the Data folder might read "This is great!"
@@ -35,7 +39,8 @@ Now, in the text message box in-game use \\\\BOOKDECR[0, 1, 2, 3] this should ou
 
 -Additional feature: Control Variable 45 (default) is set for ROT cipher, default ROT is 0 (no change to text). However you can set rotation to further complicate the book cipher. If Varibale 45 is set to "1" your output from the example would eb Uijt.
 
-OpcodeSimulator:
+##OpcodeSimulator:
+
  -Create puzzles around understanding Opcode. In this example, the user must understand opcode operation to match the input value to the expected output value. 
  -There are 2 parts to this plugin. The first "Disassemble Program" stores the program in a variable that can then be displayed in Text event to the user. The second "Run Opcode Program" runs the opcode and stores the result in a variable.
 
