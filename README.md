@@ -50,6 +50,11 @@ Now, in the text message box in-game use \\\\BOOKDECR[0, 1, 2, 3] this should ou
 
 ## Virtual Debugger Plugin:
 
+
 This robust plugin offers a few ways to make cyber security challenges within RPGMaker MZ.
-  -
+  - This first example shows "Disassemble Debugger Program" to store the program in a variable which can be displayed to the user in text.
+  - Next the user is prompted for Input to make it so that the EAX register value in decimal matches EBX from HEX. The "Patch Register" function is used here to change EAX to the Input value stored in the input Variable.
+  - Now "Run Debugger Program" runs the patched code, notice ECX is used here, this is to generate a 1 or 0 "True or False". Use this in a coditional branch for the puzzle.
+
+![alt text](https://raw.githubusercontent.com/securitymagic/rpgmakermz/main/images/patch.png "Patch Register Event")
   
