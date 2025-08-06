@@ -1,1 +1,3 @@
 Version 2 beta testing for DebuggerUI and VirtualDebugger
+
+Allows editing of instructions in the DebuggerUIPatcher, and now allows breakpoint to be set, when this is set VirtualDebugger stops and reads current value of all registers.
