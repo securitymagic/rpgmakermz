@@ -1,7 +1,7 @@
 /*:
  * @target MZ
  * @plugindesc UI Patch Helper for Virtual Debugger - lets player NOP lines before execution. v1.3
- * @author ChatGPT
+ * @author Luke Acha and ChatGPT
  *
  * @command OpenDebuggerUI
  * @text Open Debugger UI
@@ -225,3 +225,4 @@ class Window_InstructionHint extends Window_Base {
 }
   window.Scene_DebuggerUI = Scene_DebuggerUI;
 })();
+
