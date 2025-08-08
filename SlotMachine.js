@@ -1,5 +1,5 @@
 // RPG Maker MZ Plugin: Slot Machine using IconSet
-// Author: ChatGPT
+// Author: Luke Acha and ChatGPT
 // Description: Slot machine mini-game using icons from the IconSet
 
 (() => {
@@ -294,3 +294,4 @@ checkWin() {
     SceneManager.push(Scene_SlotMachine);
   });
 })();
+
