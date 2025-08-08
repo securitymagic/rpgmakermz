@@ -72,3 +72,4 @@ This robust plugin offers a few ways to make cyber security challenges within RP
 
 This plugin can be invoked in an event Script : SceneManager.push(Scene_SlotMachine);
 This uses the games own Iconset for the slot machine symbols.
+  ![alt text](https://raw.githubusercontent.com/securitymagic/rpgmakermz/main/images/slots.png "Slot Machine")
