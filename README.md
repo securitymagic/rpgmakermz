@@ -67,3 +67,8 @@ This robust plugin offers a few ways to make cyber security challenges within RP
   ![alt text](https://raw.githubusercontent.com/securitymagic/rpgmakermz/main/images/debug1.png "Player View of Debugger")
   ![alt text](https://raw.githubusercontent.com/securitymagic/rpgmakermz/main/images/debug2.png "Debugger Setup")
   ![alt text](https://raw.githubusercontent.com/securitymagic/rpgmakermz/main/images/debug3.png "Debugger Event")
+
+## SlotMachine
+
+This plugin can be invoked in an event Script : SceneManager.push(Scene_SlotMachine);
+This uses the games own Iconset for the slot machine symbols.
