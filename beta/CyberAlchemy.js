@@ -2,7 +2,7 @@
 /*:
  * @target MZ
  * @plugindesc Alchemy plugin that lets players combine items, weapons, or armor via defined recipes with an in-game selection UI + live result preview. 
- * @author ChatGPT
+ * @author Luke Acha and ChatGPT
  * 
  * @command open
  * @text Open Alchemy Menu
@@ -518,3 +518,4 @@ PluginManager.registerCommand("CyberAlchemy", "open", () => {
   SceneManager.push(Scene_Alchemy);
 });
 })();
+
