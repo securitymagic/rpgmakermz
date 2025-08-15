@@ -1,7 +1,7 @@
 /*:
  * @target MZ
  * @plugindesc High Card (Player vs 3 AI) with geeky mixed-number cards (DEC/HEX/OCT/BIN/ROM). Betting included. v1.0
- * @author ChatGPT
+ * @author Luke Acha and ChatGPT
  *
  * @help CyberHighCard_MZ.js
  *
@@ -252,4 +252,5 @@ class Window_CH_Bet extends Window_Command {
       }
     }
   }
+
 })();
