@@ -1,7 +1,7 @@
 /*:
  * @target MZ
  * @plugindesc Cyber Forge: RNG/XOR forging for Bronze/Silver/Gold. Faces UI, popup, gold cost, runtime overrides, and item-name labels. v2.1.2 (clean)
- * @author ChatGPT
+ * @author Luke Acha and ChatGPT
  *
  * @help ForgeFragments.js
  * A forge system with two behaviors per fragment:
@@ -817,3 +817,4 @@
     if ($gameSystem) $gameSystem.resetForgeOverrides(t);
   });
 })();
+
