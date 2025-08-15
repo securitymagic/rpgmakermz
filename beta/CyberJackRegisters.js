@@ -1,7 +1,7 @@
 /*:
  * @target MZ
  * @plugindesc v1.4 CyberJack Registers — blackjack-like minigame (ADD/SUB/XOR/AND/OR) + betting. Frameless bet & action bars.
- * @author You
+ * @author Luke Acha and ChatGPT
  *
  * @help CyberJackRegisters.js
  * - Build ACC close to Target without exceeding it (bust).
@@ -589,4 +589,5 @@ PluginManager.registerCommand(PLUGIN_NAME,"Start",function(args){
   SceneManager.push(Scene_CyberJack);
   SceneManager.prepareNextScene({target:P_Target,dealerStand:P_DealerStand,swWin:P_SwWin,swLose:P_SwLose,varMargin:P_VarMargin});
 });
+
 })();
