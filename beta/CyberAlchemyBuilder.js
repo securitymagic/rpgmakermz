@@ -1,7 +1,7 @@
 /*:
  * @target MZ
  * @plugindesc Dev Tool: Build and export alchemy recipes to JSON (Items/Weapons/Armors).
- * @author You
+ * @author Luke Acha and ChatGPT
  *
  * @param recipesFile
  * @text Recipes JSON file
@@ -303,3 +303,4 @@ class Window_CAB_ItemList extends Window_ItemList {
     SceneManager.push(Scene_CABuilder);
   });
 })();
+
