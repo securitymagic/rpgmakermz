@@ -1,7 +1,7 @@
 /*:
  * @target MZ
  * @plugindesc World Map at a glance (tiles + parallax), chunked snapshot for huge maps + multi-region hide by switches. v2.0
- * @author You
+ * @author Luke Acha and ChatGPT
  *
  * @param WorldMapId
  * @text World Map ID (0 = current map)
@@ -412,3 +412,4 @@
     }
   };
 })();
+
