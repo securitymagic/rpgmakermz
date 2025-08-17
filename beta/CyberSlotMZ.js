@@ -1,7 +1,7 @@
 /*:
  * @target MZ
  * @plugindesc Cyber slot — reels, XOR on gold, SUB penalties, vibrance filter, rich audio. Background image support + adjustable reel layout. v2.12
- * @author ChatGPT
+ * @author Luke Acha and ChatGPT
  *
  * @help
  * NEW (layout controls):
@@ -914,4 +914,5 @@
   }
 
   window.Scene_SlotMachine = Scene_SlotMachine;
+
 })();
