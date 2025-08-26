@@ -1,7 +1,7 @@
 /*:
  * @target MZ
  * @plugindesc v1.2.1 Cyber Terminal: virtual keyboard, Wordle-style hints, attempts/switches, timed lockout, per-instance overrides (green-on-black).
- * @author ChatGPT
+ * @author Luke Acha and ChatGPT
  *
  * @help CyberTerminalPassword.js
  *
@@ -705,3 +705,4 @@
     SceneManager.push(Scene_CyberTerminal);
   });
 })();
+
