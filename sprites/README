@@ -1,0 +1,8 @@
+Using the Time Elements Character Generator from https://finalbossblues.itch.io/time-elements-character-core-set
+
+Create your image and export to full character sheet. 
+
+Use the Python script to crop the image to character walking sprite in RpgMaker MZ
+
+Use the RPGMaker MZ CharacterOffsetMZ.js Plugin, in the plugin manager you can mainatin a list of images from this generator and set their Y offset to 48.
+
